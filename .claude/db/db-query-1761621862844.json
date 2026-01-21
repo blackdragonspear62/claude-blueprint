@@ -1,0 +1,60 @@
+{
+  "query": "SELECT * FROM city_projects ORDER BY createdAt DESC LIMIT 5",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user fx4QbodJUr1Tv3W.768c6a6b828c --database 2VaDzdH5R56mSXYryGqLV4 --execute SELECT * FROM city_projects ORDER BY createdAt DESC LIMIT 5",
+  "rows": [
+    {
+      "id": "13",
+      "userId": "1",
+      "name": "AI Autonomous City",
+      "prompt": "Create an innovative AI-powered application with creative features designed by the AI team",
+      "status": "completed",
+      "currentStep": "qa",
+      "createdAt": "2025-10-28 03:18:48",
+      "updatedAt": "2025-10-28 03:19:03"
+    },
+    {
+      "id": "12",
+      "userId": "1",
+      "name": "AI Autonomous City",
+      "prompt": "Create an innovative AI-powered application with creative features designed by the AI team",
+      "status": "completed",
+      "currentStep": "qa",
+      "createdAt": "2025-10-28 03:14:15",
+      "updatedAt": "2025-10-28 03:14:33"
+    },
+    {
+      "id": "11",
+      "userId": "1",
+      "name": "AI Autonomous City",
+      "prompt": "Create an innovative AI-powered application with creative features designed by the AI team",
+      "status": "completed",
+      "currentStep": "qa",
+      "createdAt": "2025-10-28 03:12:53",
+      "updatedAt": "2025-10-28 03:13:07"
+    },
+    {
+      "id": "10",
+      "userId": "1",
+      "name": "AI Autonomous City",
+      "prompt": "Create an innovative AI-powered application with creative features designed by the AI team",
+      "status": "completed",
+      "currentStep": "qa",
+      "createdAt": "2025-10-28 03:12:34",
+      "updatedAt": "2025-10-28 03:12:52"
+    },
+    {
+      "id": "9",
+      "userId": "1",
+      "name": "AI Autonomous City",
+      "prompt": "Create an innovative AI-powered application with creative features designed by the AI team",
+      "status": "completed",
+      "currentStep": "qa",
+      "createdAt": "2025-10-28 03:07:10",
+      "updatedAt": "2025-10-28 03:07:28"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuserId\tname\tprompt\tstatus\tcurrentStep\tcreatedAt\tupdatedAt\n13\t1\tAI Autonomous City\tCreate an innovative AI-powered application with creative features designed by the AI team\tcompleted\tqa\t2025-10-28 03:18:48\t2025-10-28 03:19:03\n12\t1\tAI Autonomous City\tCreate an innovative AI-powered application with creative features designed by the AI team\tcompleted\tqa\t2025-10-28 03:14:15\t2025-10-28 03:14:33\n11\t1\tAI Autonomous City\tCreate an innovative AI-powered application with creative features designed by the AI team\tcompleted\tqa\t2025-10-28 03:12:53\t2025-10-28 03:13:07\n10\t1\tAI Autonomous City\tCreate an innovative AI-powered application with creative features designed by the AI team\tcompleted\tqa\t2025-10-28 03:12:34\t2025-10-28 03:12:52\n9\t1\tAI Autonomous City\tCreate an innovative AI-powered application with creative features designed by the AI team\tcompleted\tqa\t2025-10-28 03:07:10\t2025-10-28 03:07:28\n",
+  "stderr": "",
+  "execution_time_ms": 1614
+}

@@ -1,0 +1,13 @@
+{
+  "query": "SELECT COUNT(*) as task_count FROM llm_tasks",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user fx4QbodJUr1Tv3W.768c6a6b828c --database 2VaDzdH5R56mSXYryGqLV4 --execute SELECT COUNT(*) as task_count FROM llm_tasks",
+  "rows": [
+    {
+      "task_count": "14"
+    }
+  ],
+  "messages": [],
+  "stdout": "task_count\n14\n",
+  "stderr": "",
+  "execution_time_ms": 1531
+}
