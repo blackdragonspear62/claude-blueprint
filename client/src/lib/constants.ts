@@ -1,5 +1,5 @@
-export const PROJECT_NAME = "Claude Blueprint";
-export const PROJECT_TAGLINE = "Autonomous City Designer by Claude AI";
+export const PROJECT_NAME = "Claude Architect";
+export const PROJECT_TAGLINE = "Realtime Autonomous Architectural Intelligence";
 
 // Claude branding colors
 export const CLAUDE_COLORS = {

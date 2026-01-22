@@ -213,7 +213,7 @@ export default function Home() {
           <Card className="claude-card p-6">
             <div className="space-y-4">
               <div className="flex items-center justify-between">
-                <h2 className="text-xl font-semibold">Watch Claude Build Your Dream City</h2>
+                <h2 className="text-xl font-semibold">Watch Claude Build</h2>
                 <div className="flex items-center gap-2">
                   <Switch
                     id="auto-mode"
